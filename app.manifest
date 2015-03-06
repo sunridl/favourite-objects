@@ -1,0 +1,10 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+style.css
+starter.js
+js/jquery.min.js
+js/bootstrap.min.js
+css/bootstrap.min.css
+css/bootstrap-theme.min.css

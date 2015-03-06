@@ -1,0 +1,16 @@
+li {
+    font-size: 18px;
+}
+
+.inlined {
+    display: inline;
+    margin-right: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.title {
+    text-align: center;
+}
