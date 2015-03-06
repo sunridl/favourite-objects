@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Фотографии | Избранное</title>
+    <title>Фотографии | Котята</title>
 
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="style.css">
@@ -16,22 +16,22 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand">Фотографии</a>
+          <a class="navbar-brand" href="#">Фотографии</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="./cats.html">Кошки</a></li>
-            <li><a href="./kittens.html">Котята</a></li>
+            <li class="active"><a href="./kittens.html">Котята</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Избранное</a></li>
+            <li><a href="index.html">Избранное</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="container">
-      <div id="favourites" class="row content"></div>
+      <div id="gallery" class="row content" data-prefix="kittens" data-images="12"></div>
     </div>
 
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
